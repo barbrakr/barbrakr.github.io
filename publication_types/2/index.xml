@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Dr. Barbara A.K. Kreilkamp</title>
+    <link>https://barbrakr.github.io/publication_types/2/</link>
+      <atom:link href="https://barbrakr.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Dr. Barbara A.K. Kreilkamp 2020</copyright><lastBuildDate>Thu, 15 Feb 2018 09:52:15 +0100</lastBuildDate>
+    <image>
+      <url>https://barbrakr.github.io/images/icon_huebe1fb9401584e4f6b2cc4ce7f6414ef_405802_512x512_fill_lanczos_center_2.png</url>
+      <title>2</title>
+      <link>https://barbrakr.github.io/publication_types/2/</link>
+    </image>
+    
+    <item>
+      <title>Automated tractography in patients with temporal lobe epilepsy using TRActs Constrained by UnderLying Anatomy (TRACULA)</title>
+      <link>https://barbrakr.github.io/publication/kreilkamp2017neuroimageclinical/</link>
+      <pubDate>Thu, 15 Feb 2018 09:52:15 +0100</pubDate>
+      <guid>https://barbrakr.github.io/publication/kreilkamp2017neuroimageclinical/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
