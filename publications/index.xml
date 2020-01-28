@@ -13,11 +13,27 @@
     </image>
     
     <item>
-      <title>Automated tractography in patients with temporal lobe epilepsy using TRActs Constrained by UnderLying Anatomy (TRACULA)</title>
-      <link>https://barbrakr.github.io/publications/kreilkamp2017neuroimageclinical/</link>
-      <pubDate>Thu, 15 Jan 2017 10:12:17 +0100</pubDate>
-      <guid>https://barbrakr.github.io/publications/kreilkamp2017neuroimageclinical/</guid>
+      <title>Comparison of manual and automated fiber quantification tractography in patients with temporal lobe epilepsy</title>
+      <link>https://barbrakr.github.io/publications/kreilkamp2019neuroimageclinical/</link>
+      <pubDate>Thu, 15 Sep 2019 10:12:17 +0100</pubDate>
+      <guid>https://barbrakr.github.io/publications/kreilkamp2019neuroimageclinical/</guid>
       <description></description>
+    </item>
+    
+    <item>
+        <title>Neuroradiological findings in patients with “non-lesional” focal epilepsy revealed by research protocol</title>
+        <link>https://barbrakr.github.io/publications/kreilkamp2018clinicalradiology/</link>
+        <pubDate>Thu, 18 Mar 2018 10:12:17 +0100</pubDate>
+        <guid>https://barbrakr.github.io/publications/kreilkamp2018clinicalradiology/</guid>
+        <description></description>
+    </item>
+    
+    <item>
+        <title>Automated tractography in patients with temporal lobe epilepsy using TRActs Constrained by UnderLying Anatomy (TRACULA)</title>
+        <link>https://barbrakr.github.io/publications/kreilkamp2017neuroimageclinical/</link>
+        <pubDate>Thu, 15 Jan 2017 10:12:17 +0100</pubDate>
+        <guid>https://barbrakr.github.io/publications/kreilkamp2017neuroimageclinical/</guid>
+        <description></description>
     </item>
     
   </channel>
