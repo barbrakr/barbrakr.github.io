@@ -1,2336 +1,455 @@
-<!DOCTYPE html>
-<html lang="en-us">
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Bold;\f1\froman\fcharset0 Times-Roman;\f2\fswiss\fcharset0 Helvetica;
+\f3\froman\fcharset0 TimesNewRomanPSMT;\f4\fnil\fcharset0 HelveticaNeue;\f5\fnil\fcharset0 Menlo-Regular;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue233;\red0\green0\blue0;
+\red179\green179\blue179;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c0\c0\c93333;\cssrgb\c0\c0\c0\c84706;
+\cssrgb\c75294\c75294\c75294;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid4}
+{\list\listtemplateid5\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid401\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid5}
+{\list\listtemplateid6\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid501\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid6}
+{\list\listtemplateid7\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid601\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid7}
+{\list\listtemplateid8\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid701\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid8}
+{\list\listtemplateid9\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid801\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid9}
+{\list\listtemplateid10\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid901\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid10}
+{\list\listtemplateid11\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1001\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid11}
+{\list\listtemplateid12\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid12}
+{\list\listtemplateid13\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid13}
+{\list\listtemplateid14\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid14}
+{\list\listtemplateid15\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1401\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid15}
+{\list\listtemplateid16\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1501\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid16}
+{\list\listtemplateid17\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1601\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid17}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}{\listoverride\listid6\listoverridecount0\ls6}{\listoverride\listid7\listoverridecount0\ls7}{\listoverride\listid8\listoverridecount0\ls8}{\listoverride\listid9\listoverridecount0\ls9}{\listoverride\listid10\listoverridecount0\ls10}{\listoverride\listid11\listoverridecount0\ls11}{\listoverride\listid12\listoverridecount0\ls12}{\listoverride\listid13\listoverridecount0\ls13}{\listoverride\listid14\listoverridecount0\ls14}{\listoverride\listid15\listoverridecount0\ls15}{\listoverride\listid16\listoverridecount0\ls16}{\listoverride\listid17\listoverridecount0\ls17}}
+{\info
+{\title Dr. Barbara A.K. Kreilkamp}
+{\doccomm Post-doc}
+{\author Dr. Barbara A.K. Kreilkamp}}\vieww14080\viewh7800\viewkind0
+\deftab720
+\pard\pardeftab720\sa280\partightenfactor0
 
-<head>
+\f0\b\fs28 \cf2 \expnd0\expndtw0\kerning0
+Search\
+\pard\pardeftab720\partightenfactor0
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.7.0">
+\f1\b0\fs24 \cf2 \
+\
+\
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "file:///"}}{\fldrslt \cf3 \ul \ulc3 Dr. Barbara A.K. Kreilkamp}} \
+{\field{\*\fldinst{HYPERLINK "file:///"}}{\fldrslt \cf3 \ul \ulc3 Dr. Barbara A.K. Kreilkamp}} \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0\cf3 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}{\field{\*\fldinst{HYPERLINK "file:///#about"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul About}}\cf2 \expnd0\expndtw0\kerning0
+ \
+\ls1\ilvl0\cf3 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}{\field{\*\fldinst{HYPERLINK "file:///#publications"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul Publications}}\cf2 \expnd0\expndtw0\kerning0
+ \
+\ls1\ilvl0\cf3 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}{\field{\*\fldinst{HYPERLINK "file:///#teaching"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul Teaching}}\cf2 \expnd0\expndtw0\kerning0
+ \
+\ls1\ilvl0\cf3 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}{\field{\*\fldinst{HYPERLINK "file:///#awards"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul Awards}}\cf2 \expnd0\expndtw0\kerning0
+ \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls2\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\
+\pard\pardeftab720\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sa298\partightenfactor0
 
-      
-      
-      
-      
-      
-      
-      
-    
-    
+\f0\b\fs36 \cf2 Dr. Barbara A.K. Kreilkamp\
+\pard\pardeftab720\sa280\partightenfactor0
 
+\fs28 \cf2 Scientific Coordinator\
+\pard\pardeftab720\sa280\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://www.neurologie.uni-goettingen.de/epilepsie-und-bildgebungsforschung.html"}}{\fldrslt \cf3 \ul \ulc3 University Hospital T\'fcbingen, Germany }}\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls3\ilvl0
+\f1\b0\fs24 \cf2 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\
+\pard\pardeftab720\sa298\partightenfactor0
 
+\f0\b\fs36 \cf2 About\
+\pard\pardeftab720\sa12\qj\partightenfactor0
 
+\f2\b0\fs22 \cf0 \kerning1\expnd0\expndtw0 I am a German-American clinical neuroscientist with a research background in treatment-resistant epilepsies. During my PhD and my two postdoctoral research positions I have analyzed functional and structural brain connectivity based on magnetic resonance images (big data) using network and spatial statistics. Always working for sound clinical science - now I am also a passionate full-time advocate for cutting-edge clinical science, innovative collaborations and working as a scientific coordinator.
+\f3\fs24 \
 
-  <meta name="author" content="Dr. Barbara A.K. Kreilkamp">
-                            
-                            
-                            
-                            
-                            
-                            
-  <meta name="description" content="Post-doc">
-                                
-                                
-  <link rel="alternate" hreflang="en-us" href="https://barbrakr.github.io/">
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-  <meta name="theme-color" content="#2962ff">
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
-                                                    
-                                                    
-                                                    
-                                                    
-                                                    
-                                                    
-                                                    
-                                                    
-                                                    
-                                                    
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono&display=swap">
-                                                                
-                                                                
-                                                                
-                                                                
-                                                                
-                                                                
-                                                                <link rel="stylesheet" href="/css/academic.css">
-                                                                    
-                                                                    
-                                                                    
-                                                                    
-                                                                    
-                                                                    
-                                                                    
-                                                                    
-                                                                    
-                                                                    
-                                                                    <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Dr. Barbara A.K. Kreilkamp">
-                                                                        
-                                                                        
-                                                                        <link rel="manifest" href="/index.webmanifest">
-                                                                            <link rel="icon" type="image/png" href="/images/icon_huebe1fb9401584e4f6b2cc4ce7f6414ef_405802_32x32_fill_lanczos_center_2.png">
-                                                                                <link rel="apple-touch-icon" type="image/png" href="/images/icon_huebe1fb9401584e4f6b2cc4ce7f6414ef_405802_192x192_fill_lanczos_center_2.png">
-                                                                                    
-                                                                                    <link rel="canonical" href="https://barbrakr.github.io/">
-                                                                                        
-                                                                                        
-                                                                                        
-                                                                                        
-                                                                                        
-                                                                                        
-                                                                                        
-                                                                                        
-                                                                                        
-                                                                                        
-                                                                                        <meta property="twitter:card" content="summary">
-                                                                                            
-                                                                                            <meta property="twitter:site" content="@barbrakr">
-                                                                                                <meta property="twitter:creator" content="@barbrakr">
-                                                                                                    
-                                                                                                    <meta property="og:site_name" content="Dr. Barbara A.K. Kreilkamp">
-                                                                                                        <meta property="og:url" content="https://barbrakr.github.io/">
-                                                                                                            <meta property="og:title" content="Dr. Barbara A.K. Kreilkamp">
-                                                                                                                <meta property="og:description" content="Post-doc"><meta property="og:image" content="https://barbrakr.github.io/images/icon_huebe1fb9401584e4f6b2cc4ce7f6414ef_405802_512x512_fill_lanczos_center_2.png">
-                                                                                                                    <meta property="twitter:image" content="https://barbrakr.github.io/images/icon_huebe1fb9401584e4f6b2cc4ce7f6414ef_405802_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
-                                                                                                                        
-                                                                                                                        <meta property="og:updated_time" content="2018-02-15T09:52:15&#43;01:00">
-                                                                                                                            
-                                                                                                                            
-                                                                                                                            
-                                                                                                                            
-                                                                                                                            <script type="application/ld+json">
-                                                                                                                                {
-                                                                                                                                    "@context": "https://schema.org",
-                                                                                                                                    "@type": "WebSite","url": "https://barbrakr.github.io/"
-                                                                                                                                }
-                                                                                                                            </script>
-                                                                                                                            
-                                                                                                                            
-                                                                                                                            
-                                                                                                                            
-                                                                                                                            
-                                                                                                                            
-                                                                                                                            
-                                                                                                                            
-                                                                                                                            
-                                                                                                                            
-                                                                                                                            
-                                                                                                                            
-<!-- <div style="background-color:#2eb5b8">-->
+\f1 \cf2 \expnd0\expndtw0\kerning0
+\
+\pard\pardeftab720\sa280\partightenfactor0
 
-                                                                                                                            
-   <title>Dr. Barbara A.K. Kreilkamp</title>
-                                                                                                                            
-    </head>
-    
-    <body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" >
-        
-        <aside class="search-results" id="search">
-            <div class="container">
-                <section class="search-header">
-                    
-                    <div class="row no-gutters justify-content-between mb-3">
-                        <div class="col-6">
-                            <h1>Search</h1>
-                        </div>
-                        <div class="col-6 col-search-close">
-                            <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                    
-                    <div id="search-box">
-                        
-                        
-                        
-                    </div>
-                    
-                </section>
-                <section class="section-search-results">
-                    
-                    <div id="search-hits">
-                        
-                    </div>
-                    
-                </section>
-            </div>
-        </aside>
-        
-        
-        
-        
-        
-        
-        
+\f0\b\fs28 \cf2 Interests\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls4\ilvl0
+\f1\b0\fs24 \cf2 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}Scientific Coordination\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls4\ilvl0\cf2 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Brain Disorders\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls4\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Neuroimaging\
+\ls4\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Connectomics\
+\ls4\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Open Science\
+\pard\pardeftab720\sa280\partightenfactor0
 
-        
-        <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+\f0\b\fs28 \cf2 Education\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls5\ilvl0
+\f1\b0\fs24 \cf2 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+PhD in Medical Imaging, 2018\uc0\u8232 University of Liverpool, United Kingdom\u8232 \u8232 \
+\ls5\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+MSc in Cognitive Science, 2014\uc0\u8232 University of Osnabr\'fcck, Germany\u8232 \u8232 \
+\ls5\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+MSc in Cognitive Neuroscience, 2014\uc0\u8232 University of Trento, Italy\u8232 \u8232 \
+\ls5\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+BA in Disability Studies, 2011\uc0\u8232 Protestant University of Applied Sciences Bochum, Germany\u8232 \u8232 \
+\pard\pardeftab720\sa298\partightenfactor0
 
-            <div class="container">
-                
+\f0\b\fs36 \cf2 Publications\
+\pard\pardeftab720\sa280\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "file:///publications/bryant2021hbm"}}{\fldrslt 
+\fs28 \cf3 \ul \ulc3 Fiber ball white matter modeling in focal epilepsy}}
+\fs28  \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "https://doi.org/10.1002/hbm.25382"}}{\fldrslt 
+\f1\b0\fs24 \cf3 \ul \ulc3 DOI\
+}}\pard\pardeftab720\partightenfactor0
 
-                <div class="d-none d-lg-inline-flex">
-                    <a class="navbar-brand" href="/">Dr. Barbara A.K. Kreilkamp</a>
-                </div>
-                
-                
-                
-                <button type="button" class="navbar-toggler" data-toggle="collapse"
-                    data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-                    <span><i class="fas fa-bars"></i></span>
-                </button>
-                
-                
-                
-                <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-                    <a class="navbar-brand" href="/">Dr. Barbara A.K. Kreilkamp</a>
-                </div>
-                
-                
-                
-                
-                <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
-                    
-                    
-                    <ul class="navbar-nav d-md-inline-flex">
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                            
-                        
-                        
-                        
-                        
-                        
-                        <li class="nav-item">
-                            <a class="nav-link " href="/#about" data-target="#about"><span>About</span></a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a class="nav-link " href="/#publications" data-target="#publications"><span>Publications</span></a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a class="nav-link " href="/#teaching" data-target="#teaching"><span>Teaching</span></a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a class="nav-link " href="/#awards" data-target="#awards"><span>Awards</span></a>
-                        </li>
-                        
-                      
-                    </ul>
-                </div>
-                
-                <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
-                    
-                    
-                </ul>
-                
-            </div>
+\f1\b0\fs24 \cf2 Lorna Bryant, Emilie T. McKinnon, James A. Taylor, Jens H. Jensen, Leonardo Bonilha, Christophe de Bezenac, Barbara A. K. Kreilkamp, Guleed Adan, Udo C. Wieshmann, Shubhabrata Biswas, Anthony G. Marson, Simon S. Keller \
+February 2021 Human Brain Mapping \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "file:///publications/bryant2021hbm"}}{\fldrslt \cf3 \ul \ulc3 \
+}}\pard\pardeftab720\sa280\partightenfactor0
 
-        </nav>
+\f0\b\fs28 \cf2 Highlights\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls6\ilvl0
+\f1\b0\fs24 \cf2 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+We estimated intra- and extra-axonal diffusion characteristics in patients with longstanding focal epilepsy.\
+\ls6\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Fiber ball imaging (FBI) and fiber ball white matter modeling parameters were calculated along tracts.\
+\ls6\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Patients with refractory epilepsy had significantly greater markers of extra\uc0\u8208 axonal diffusivity compared to those with non-refractory epilepsy.\
+\ls6\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+These could be markers of neuroinflammatory processes or a reflection of reduced axonal density.\
+\ls6\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+FBI is a clinically feasible MRI approach that provides the basis for more interpretive conclusions about brain microstructure.\
+\pard\pardeftab720\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sa280\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "file:///publications/kreilkamp2021neuroimageclinical"}}{\fldrslt 
+\f0\b\fs28 \cf3 \ul \ulc3 Altered structural connectome in non-lesional newly diagnosed focal epilepsy: Relation to pharmacoresistance}}
+\f0\b\fs28  \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "https://doi.org/10.1016/j.nicl.2021.102564"}}{\fldrslt 
+\f1\b0\fs24 \cf3 \ul \ulc3 DOI\
+}}\pard\pardeftab720\partightenfactor0
 
-<!--   </div>-->
+\f1\b0\fs24 \cf2 Barbara A.K. Kreilkamp, Andrea McKavanagh, Batil Alonazi, Lorna Bryant, Kumar Das, Udo C. Wieshmann, Anthony G. Marson, Peter N. Taylor, Simon S. Keller \
+January 2021 Neuroimage:Clincal \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "file:///publications/kreilkamp2021neuroimageclinical"}}{\fldrslt \cf3 \ul \ulc3 \
+}}\pard\pardeftab720\sa280\partightenfactor0
 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <span class="js-widget-page d-none"></span>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <section id="about" class="home-section wg-about   "  >
-            <div class="container">
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                <div class="row">
-                    <div class="col-12 col-lg-4">
-                        <div id="profile">
-                            
-                            
-                            
-                            <img class="portrait" src="/authors/admin/avatar_hu4cfa5f03d1829563f77e9ab3c9c2adc2_104944_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
-                                
-                                
-                                <div class="portrait-title">
-                                    <h2>Dr. Barbara A.K. Kreilkamp</h2>
-                                    <h3>Post-doc</h3>
-                                    
-                                    
-                                    <h3>
-                                        <a href="http://www.neurologie.uni-goettingen.de/epilepsie-und-bildgebungsforschung.html" target="_blank" rel="noopener">
-                                            <span>University Medicine Göttingen, Germany</span>
-                                        </a>
-                                    </h3>
-                                    
-                                    
-                                    <!--<h3>
-                                        <a href="https://www.liverpool.ac.uk" target="_blank" rel="noopener">
-                                            <span>University of Liverpool, United Kingdom</span>
-                                        </a>
-                                    </h3>
-                                    
-                                    <h3>
-                                        <a href="http://www.thewaltoncentre.nhs.uk/" target="_blank" rel="noopener">
-                                            <span>The Walton Centre NHS Foundation Trust Liverpool, United Kingdom</span>
-                                        </a>
-                                    </h3>-->
-                                    
-                                    
-                                    
-                                </div>
-                                
-                                <ul class="network-icon" aria-hidden="true">
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    <li>
-                                        <a href="https://www.researchgate.net/profile/Barbara_Kreilkamp" target="_blank" rel="noopener">
-                                            <i class="fab fa-researchgate big-icon"></i>
-                                        </a>
-                                    </li>
+\f0\b\fs28 \cf2 Highlights\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls7\ilvl0
+\f1\b0\fs24 \cf2 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Patients showed showed widespread connectome alterations relative to controls.\
+\ls7\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Relative to controls, patients /w seizure-freedom (SF) had increased diffusivity.\
+\ls7\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Patients /w persistent seizures (PS) had increased diffusivity relative to controls.\
+\ls7\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Subgroup-specific connectomes were found for both patient groups (SF vs PS).\
+\ls7\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Patients with generalized seizures and those without had altered connectomes.\
+\pard\pardeftab720\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sa280\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "file:///publications/kreilkamp2019neuroimageclinical"}}{\fldrslt 
+\f0\b\fs28 \cf3 \ul \ulc3 Comparison of manual and automated fiber quantification tractography in patients with temporal lobe epilepsy}}
+\f0\b\fs28  \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "https://doi.org/10.1016/j.nicl.2019.102024"}}{\fldrslt 
+\f1\b0\fs24 \cf3 \ul \ulc3 DOI\
+}}\pard\pardeftab720\partightenfactor0
 
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    <li>
-                                        <a href="https://scholar.google.com/citations?user=-LrjGYEAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">
-                                            <i class="ai ai-google-scholar big-icon"></i>
-                                        </a>
-                                    </li>
+\f1\b0\fs24 \cf2 Barbara A.K. Kreilkamp, Lucy Lisanti, G. Russell Glenn, Udo C. Wieshmann, Kumar Das, Anthony G. Marson, Simon S. Keller \
+September 2019 NeuroImage:Clinical \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "file:///publications/kreilkamp2019neuroimageclinical"}}{\fldrslt \cf3 \ul \ulc3 \
+}}\pard\pardeftab720\sa280\partightenfactor0
 
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    <li>
-                                        <a href="https://github.com/barbrakr" target="_blank" rel="noopener">
-                                            <i class="fab fa-github big-icon"></i>
-                                        </a>
-                                    </li>
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    <li>
-                                        <a href="https://orcid.org/0000-0001-6881-5191" target="_blank" rel="noopener">
-                                            <i class="ai ai-orcid big-icon"></i>
-                                        </a>
-                                    </li>
-                                    
-                                    
-                                    
-                                    <li>
-                                        <a href="mailto:barbrakr@liv.ac.uk" >
-                                            <i class="fas fa-envelope big-icon"></i>
-                                        </a>
-                                    </li>
-                                    
-                                </ul>
-                                
-                                </div>
-                    </div>
-                    <div class="col-12 col-lg-8">
-                        
-                        <h1>About</h1>
-                        
-                        <p>I am a post-doc in the epilepsy neuroimaging lab of the University Medicine Goettingen, Germany. Currently I am applying graph theory and machine learning techniques to Magnetic Resonance Imaging data to understand the mechanisms of treatment-resistant epilepsies.</p>
-                        
-                        
-                        <div class="row">
-                            
-                            
-                            <div class="col-md-5">
-                                <h3>Interests</h3>
-                                <ul class="ul-interests">
-                                    
-                                    <li>Brain Disorders</li>
-                                    
-                                    <li>Neuroimaging</li>
-                                    
-                                    <li>Connectomics</li>
-                                    
-                                    <li>Open Science</li>
-                                    
-                                </ul>
-                            </div>
-                            
-                            
-                            
-                            <div class="col-md-7">
-                                <h3>Education</h3>
-                                <ul class="ul-edu fa-ul">
-                                    
-                                    <li>
-                                        <i class="fa-li fas fa-graduation-cap"></i>
-                                        <div class="description">
-                                            <p class="course">PhD in Medical Imaging, 2018</p>
-                                            <p class="institution">University of Liverpool, United Kingdom</p>
-                                        </div>
-                                    </li>
-                                    
-                                    <li>
-                                        <i class="fa-li fas fa-graduation-cap"></i>
-                                        <div class="description">
-                                            <p class="course">MSc in Cognitive Science, 2014</p>
-                                            <p class="institution">University of Osnabrück, Germany</p>
-                                        </div>
-                                    </li>
-                                    
-                                    <li>
-                                        <i class="fa-li fas fa-graduation-cap"></i>
-                                        <div class="description">
-                                            <p class="course">MSc in Cognitive Neuroscience, 2014</p>
-                                            <p class="institution">University of Trento, Italy</p>
-                                        </div>
-                                    </li>
-                                    
-                                    <li>
-                                        <i class="fa-li fas fa-graduation-cap"></i>
-                                        <div class="description">
-                                            <p class="course">BA in Disability Studies, 2011</p>
-                                            <p class="institution">Protestant University of Applied Sciences Bochum, Germany</p>
-                                        </div>
-                                    </li>
-                                    
-                                </ul>
-                            </div>
-                            
-                            
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        </section>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <section id="publications" class="home-section wg-pages   "  >
-            <div class="container">
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                <div class="row">
-                    <div class="col-12 col-lg-4 section-heading">
-                        <h1>Publications</h1>
-                        
-                    </div>
-                    <div class="col-12 col-lg-8">
-                        
- 
- 
- 
-                        
-                        
-                        <!--copy here for publication-->
-                        <div class="card-simple">
-                            
-                            
-                            <h3 class="article-title mb-1 mt-1">
-                                <a href="/publications/bryant2021hbm">Fiber ball white matter modeling in focal epilepsy</a>
-                            </h3>
-                            
-                            
-                            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1002/hbm.25382" target="_blank" rel="noopener">
-                                DOI
-                            </a>
-                            
-                            
-                            <div class="article-metadata">
-                                
-                                <div>
-                                    
-                                    <span>Lorna Bryant</span>, <span>Emilie T. McKinnon</span>, <span>James A. Taylor</span>, <span>Jens H. Jensen</span>, <span>Leonardo Bonilha</span>, <span>Christophe de Bezenac</span>, <span>Barbara A. K. Kreilkamp</span>, <span>Guleed Adan</span>, <span> Udo C. Wieshmann</span>, <span>Shubhabrata Biswas</span>, <span>Anthony G. Marson</span>, <span>Simon S. Keller</span>
-                                    
-                                </div>
-                                
-                                
-                                
-                                
-                                <span class="article-date">
-                                    
-                                    
-                                    
-                                    
-                                    February 2021
-                                </span>
-                                
-                                
-                                
-                                <span class="middot-divider"></span>
-                                <span class="pub-publication">
-                                    
-                                    Human Brain Mapping
-                                    
-                                </span>
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                            </div>
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            <a href="/publications/bryant2021hbm">
-                                <img src="/publications/bryant2021hbm/featured1.png" class="article-banner" alt="">
-                                    </a>
-                            
-                            
-                            
-                            <div class="col-md-15">
-                                <h3>Highlights</h3>
-                                <ul class="ul-interests">
-                                    
-                                
-                                    
-                                    <li>We estimated intra- and extra-axonal diffusion characteristics in patients with longstanding focal epilepsy.</li>
-                                    
-                                    <li>Fiber ball imaging (FBI) and fiber ball white matter modeling parameters were calculated along tracts.</li>
-                                    
-                                    <li>Patients with refractory epilepsy had significantly greater markers of extra‐axonal diffusivity compared to those with non-refractory epilepsy.</li>
-                                    
-                                    <li>These could be markers of neuroinflammatory processes or a reflection of reduced axonal density.</li>
-                                    
-                                    <li>FBI is a clinically feasible MRI approach that provides the basis for more interpretive conclusions about brain microstructure.</li>
-                                    
-                                </ul>
-                            </div>
-                            
-                            
-                            
-                            
-                            
-                            
-                            <div class="btn-links">
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                <div>
-                                    
-                                </div>
-                                
-                                
-                            </div>
-                            
-                        </div>
-                        
-                        <!--copy here for additional publication-->
-                        
-                        
-                        
- <!--copy here for publication-->
-                        <div class="card-simple">
-                            
-                            
-                            <h3 class="article-title mb-1 mt-1">
-                                <a href="/publications/kreilkamp2021neuroimageclinical">Altered structural connectome in non-lesional newly diagnosed focal epilepsy: Relation to pharmacoresistance</a>
-                            </h3>
-                            
-                            
-                            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1016/j.nicl.2021.102564" target="_blank" rel="noopener">
-                                DOI
-                            </a>
-                            
-                            
-                            <div class="article-metadata">
-                                
-                                <div>
-                                    
-                                    <span>Barbara A.K. Kreilkamp</span>, <span>Andrea McKavanagh</span>, <span>Batil Alonazi</span>, <span>Lorna Bryant</span>, <span>Kumar Das</span>, <span>Udo C. Wieshmann</span>, <span>Anthony G. Marson</span>, <span>Peter N. Taylor</span>, <span>Simon S. Keller</span>
-                                    
-                                </div>
-                                
-                                
-                                
-                                
-                                <span class="article-date">
-                                    
-                                    
-                                    
-                                    
-                                    January 2021
-                                </span>
-                                
-                                
-                                
-                                <span class="middot-divider"></span>
-                                <span class="pub-publication">
-                                    
-                                    Neuroimage:Clincal
-                                    
-                                </span>
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                            </div>
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            <a href="/publications/kreilkamp2021neuroimageclinical">
-                                <img src="/publications/kreilkamp2021neuroimageclinical/featured1.png" class="article-banner" alt="">
-                                    </a>
-                            
-                            
-                            
-                            <div class="col-md-15">
-                                <h3>Highlights</h3>
-                                <ul class="ul-interests">
-                                    
-                                    <li>Patients showed showed widespread connectome alterations relative to controls.</li>
-                                    
-                                    <li>Relative to controls, patients /w seizure-freedom (SF) had increased diffusivity.</li>
-                                    
-                                    <li>Patients /w persistent seizures (PS) had increased diffusivity relative to controls.</li>
-                                    
-                                    <li>Subgroup-specific connectomes were found for both patient groups (SF vs PS).</li>
-                                    
-                                    <li>Patients with generalized seizures and those without had altered connectomes.</li>
-                                    
-                                </ul>
-                            </div>
-                            
-                            
-                            
-                            
-                            
-                            
-                            <div class="btn-links">
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                <div>
-                                    
-                                </div>
-                                
-                                
-                            </div>
-                            
-                        </div>
-                        
-                        <!--copy here for additional publication-->
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-<!--copy here for publication-->
+\f0\b\fs28 \cf2 Highlights\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls8\ilvl0
+\f1\b0\fs24 \cf2 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Tractography approaches showed moderate to good agreement for tract morphology.\
+\ls8\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Along- and whole-tract diffusivity was significantly correlated across approaches.\
+\ls8\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Whole-tract AFQ but not manual tract diffusivity correlated with clinical variables.\
+\ls8\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Absence of excellent agreement between approaches warrants caution.\
+\pard\pardeftab720\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sa280\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "file:///publications/kreilkamp2018clinicalradiology"}}{\fldrslt 
+\f0\b\fs28 \cf3 \ul \ulc3 Neuroradiological findings in patients with \'93non-lesional\'94 focal epilepsy revealed by research protocol}}
+\f0\b\fs28  \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "https://doi.org/10.1016/j.crad.2018.08.013"}}{\fldrslt 
+\f1\b0\fs24 \cf3 \ul \ulc3 DOI\
+}}\pard\pardeftab720\partightenfactor0
 
-                        
-                        
-                        <div class="card-simple">
-                            
-                            <h3 class="article-title mb-1 mt-1">
-                                <a href="/publications/kreilkamp2019neuroimageclinical">Comparison of manual and automated fiber quantification tractography in patients with temporal lobe epilepsy</a>
-                            </h3>
-                            
-                            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1016/j.nicl.2019.102024" target="_blank" rel="noopener">
-                                DOI
-                            </a>
-                            
-                            <div class="article-metadata">
-                                
-                                
-                                
-                               
-                                
-                                
-                                <div>
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    <span>Barbara A.K. Kreilkamp</span>, <span>Lucy Lisanti</span>, <span>G. Russell Glenn</span>, <span>Udo C. Wieshmann</span>, <span>Kumar Das</span>, <span>Anthony G. Marson</span>, <span>Simon S. Keller</span>
-                                   
-                                    
-                                </div>
-                                
-                                
-                                
-                                
-                                
-                                <span class="article-date">
-                                    
-                                    
-                                    
-                                    
-                                    September 2019
-                                </span>
-                                
-                                
-                                
-                                <span class="middot-divider"></span>
-                                <span class="pub-publication">
-                                    
-                                    NeuroImage:Clinical
-                                    
-                                </span>
-                                
-                              
-                                
-                           </div>
-                            
-                            
-                                
-                                
-                                
-                                
-                                
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            <a href="/publications/kreilkamp2019neuroimageclinical">
-                                <img src="/publications/kreilkamp2019neuroimageclinical/featured1.png" class="article-banner" alt="">
-                                    </a>
-                            
+\f1\b0\fs24 \cf2 Barbara A.K. Kreilkamp, Kumar Das, Udo C. Wieshmann, Shubhabrata Biswas, Anthony G. Marson, Simon S. Keller \
+August 2018 Clinical Radiology \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "file:///publications/kreilkamp2018clinicalradiology"}}{\fldrslt \cf3 \ul \ulc3 \
+}}\pard\pardeftab720\sa280\partightenfactor0
 
-                            
-                       
+\f0\b\fs28 \cf2 Highlights\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls9\ilvl0
+\f1\b0\fs24 \cf2 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Patients with focal refractory epilepsy with previous \'91non-lesional\'92 clinical MRI.\
+\ls9\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+A dedicated epilepsy research protocol with expert image re-evaluation.\
+\ls9\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+33% patients were found to have potentially epileptogenic brain lesions.\
+\ls9\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Dedicated epilepsy protocol with artifact-free MRI may increase lesion pick-up-rate.\
+\pard\pardeftab720\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sa280\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "file:///publications/kreilkamp2018actaneurolscand"}}{\fldrslt 
+\f0\b\fs28 \cf3 \ul \ulc3 Hippocampal subfield segmentation in temporal lobe epilepsy: Relation to outcomes}}
+\f0\b\fs28  \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://dx.doi.org/10.1111/ane.12926"}}{\fldrslt 
+\f1\b0\fs24 \cf3 \ul \ulc3 DOI\
+}}\pard\pardeftab720\partightenfactor0
 
+\f1\b0\fs24 \cf2 Barbara A.K. Kreilkamp, Bernd Weber, Samia B. Elkommos, Mark P. Richardson, Simon S. Keller \
+March 2018 Acta Neurologica Scandinavica \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "file:///publications/kreilkamp2018actaneurolscand"}}{\fldrslt \cf3 \ul \ulc3 \
+}}\pard\pardeftab720\sa280\partightenfactor0
 
-                                <div class="btn-links">
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                            <div class="col-md-15">
-                                <h3>Highlights</h3>
-                                <ul class="ul-interests">
-                                    
-                                    <li>Tractography approaches showed moderate to good agreement for tract morphology.</li>
-                                    
-                                    <li>Along- and whole-tract diffusivity was significantly correlated across approaches.</li>
-                                    
-                                    <li>Whole-tract AFQ but not manual tract diffusivity correlated with clinical variables.</li>
-                                    
-                                    <li>Absence of excellent agreement between approaches warrants caution.</li>
-                                    
-                                </ul>
-                            </div>
-                            
-                            
-                            
-                          
-                                
-                          <div>
+\f0\b\fs28 \cf2 Highlights\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls10\ilvl0
+\f1\b0\fs24 \cf2 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Patients with left TLE had smaller volumes of the contralateral presubiculum and hippocampus\uc0\u8208 amygdala transition area compared to those with right TLE.\
+\ls10\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+No significant differences in hippocampal subfield volumes between patients who were rendered seizure free and those with persistent postoperative seizures.\
+\ls10\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Ipsilateral hippocampal subfield volumes are not related to the chronicity/severity of TLE.\
+\ls10\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+In patients with TLE and HS, MRI analysis of hippocampal architecture may have limited value for prediction of postoperative outcomes.\
+\pard\pardeftab720\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sa280\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "file:///publications/kreilkamp2017neuroimageclinical"}}{\fldrslt 
+\f0\b\fs28 \cf3 \ul \ulc3 Automated tractography in patients with temporal lobe epilepsy using TRActs Constrained by UnderLying Anatomy (TRACULA)}}
+\f0\b\fs28  \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://dx.doi.org/10.1016/j.nicl.2017.01.003"}}{\fldrslt 
+\f1\b0\fs24 \cf3 \ul \ulc3 DOI\
+}}\pard\pardeftab720\partightenfactor0
 
-                       </div>
-                                
-                                
-                   </div>
-                            
-              </div>
+\f1\b0\fs24 \cf2 Barbara A.K. Kreilkamp, Bernd Weber, Mark P. Richardson, Simon S. Keller \
+January 2017 NeuroImage:Clinical \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "file:///publications/kreilkamp2017neuroimageclinical"}}{\fldrslt \cf3 \ul \ulc3 \
+}}\pard\pardeftab720\sa280\partightenfactor0
 
-<!--copy here for publication-->
-                            <div class="card-simple">
-                                        
-                                    <h3 class="article-title mb-1 mt-1">
-                                            <a href="/publications/kreilkamp2018clinicalradiology">Neuroradiological findings in patients with “non-lesional” focal epilepsy revealed by research protocol</a>
-                                    </h3>
-                                        
-                                    <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1016/j.crad.2018.08.013" target="_blank" rel="noopener">
-                                            DOI
-                                    </a>
-                                        
-                                    <div class="article-metadata">
-                                    
-                                <div>
-                                    
-                                    <span>Barbara A.K. Kreilkamp</span>, <span>Kumar Das</span>, <span>Udo C. Wieshmann</span>, <span>Shubhabrata Biswas</span>, <span>Anthony G. Marson</span>, <span>Simon S. Keller</span>
-                                    
-                                </div>
-                                
-                                
-                                
-                                
-                                <span class="article-date">
-                                    
-                                    
-                                    
-                                    
-                                    August 2018
-                                </span>
-                                
-                                
-                                
-                                <span class="middot-divider"></span>
-                                <span class="pub-publication">
-                                    
-                                    Clinical Radiology
-                                    
-                                </span>
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                            </div>
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            <a href="/publications/kreilkamp2018clinicalradiology">
-                                <img src="/publications/kreilkamp2018clinicalradiology/featured1.png" class="article-banner" alt="">
-                                    </a>
-                            
-                            
-                           
-                            
-                            <div class="col-md-15">
-                                <h3>Highlights</h3>
-                                <ul class="ul-interests">
-                                    
-                                    <li>Patients with focal refractory epilepsy with previous ‘non-lesional’ clinical MRI.</li>
-                                    
-                                    <li>A dedicated epilepsy research protocol with expert image re-evaluation.</li>
-                                    
-                                    <li>33% patients were found to have potentially epileptogenic brain lesions.</li>
-                                    
-                                    <li>Dedicated epilepsy protocol with artifact-free MRI may increase lesion pick-up-rate.</li>
-                                    
-                                </ul>
-                            </div>
-                            
-                           
-                            
-                            
-                            
-                            <div class="btn-links">
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                             
-                                
-                                
-                                
-                                <div>
-                                    
-                                </div>
-                                
-                                
-                            </div>
-                            
-                            </div>
+\f0\b\fs28 \cf2 Highlights\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls11\ilvl0
+\f1\b0\fs24 \cf2 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+We investigated white matter tract alterations in TLE using an automated tool.\
+\ls11\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Patients showed bilateral tract alterations but were more prominent ipsilaterally.\
+\ls11\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Along-the-tract analyses revealed the exact location of tract diffusion alterations.\
+\ls11\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Alterations correlated with chronicity/severity of TLE but not hippocampal atrophy.\
+\pard\pardeftab720\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sa280\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "file:///publications/keller2017brain"}}{\fldrslt 
+\f0\b\fs28 \cf3 \ul \ulc3 Preoperative automated fibre quantification predicts postoperative seizure outcome in temporal lobe epilepsy}}
+\f0\b\fs28  \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://dx.doi.org/10.1093/brain/aww280"}}{\fldrslt 
+\f1\b0\fs24 \cf3 \ul \ulc3 DOI\
+}}\pard\pardeftab720\partightenfactor0
 
-                            
-<!--copy here for publication-->
-                            <div class="card-simple">
-                                
-                                
-                                <h3 class="article-title mb-1 mt-1">
-                                    <a href="/publications/kreilkamp2018actaneurolscand">Hippocampal subfield segmentation in temporal lobe epilepsy: Relation to outcomes</a>
-                                </h3>
-                                
-                                
-                                <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://dx.doi.org/10.1111/ane.12926" target="_blank" rel="noopener">
-                                    DOI
-                                </a>
-                                
-                                
-                                <div class="article-metadata">
-                                    
-                                    <div>
-                                        
-                                        <span>Barbara A.K. Kreilkamp</span>, <span>Bernd Weber</span>, <span>Samia B. Elkommos</span>, <span>Mark P. Richardson</span>, <span>Simon S. Keller</span>
-                                
-                                    </div>
-                                    
-                                    
-                                    
-                                    
-                                    <span class="article-date">
-                                        
-                                        
-                                        
-                                        
-                                        March 2018
-                                    </span>
-                                    
-                                    
-                                    
-                                    <span class="middot-divider"></span>
-                                    <span class="pub-publication">
-                                        
-                                        Acta Neurologica Scandinavica
-                                        
-                                    </span>
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                </div>
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                <a href="/publications/kreilkamp2018actaneurolscand">
-                                    <img src="/publications/kreilkamp2018actaneurolscand/featured1.png" class="article-banner" alt="">
-                                        </a>
-                                
-                                
-                                
-                                <div class="col-md-15">
-                                    <h3>Highlights</h3>
-                                    <ul class="ul-interests">
-                                        
-                                        <li>Patients with left TLE had smaller volumes of the contralateral presubiculum and hippocampus‐amygdala transition area compared to those with right TLE.</li>
-                            
-                                        <li>No significant differences in hippocampal subfield volumes between patients who were rendered seizure free and those with persistent postoperative seizures.</li>
-                                        
-                                        <li>Ipsilateral hippocampal subfield volumes are not related to the chronicity/severity of TLE.</li>
-                                        
-                                        <li>In patients with TLE and HS, MRI analysis of hippocampal architecture may have limited value for prediction of postoperative outcomes.</li>
-                                        
-                                    </ul>
-                                </div>
-                                
-                                
-                                
-                                
-                                
-                                
-                                <div class="btn-links">
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
+\f1\b0\fs24 \cf2 Simon S. Keller, G. Russell Glenn, Bernd Weber, Barbara A.K. Kreilkamp, Jens H. Jensen, Joseph A. Helpern, Jan Wagner, Gareth J. Barker, Mark P. Richardson, Leonardo Bonilha \
+November 2016 Brain \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "file:///publications/keller2017brain"}}{\fldrslt \cf3 \ul \ulc3 \
+}}\pard\pardeftab720\sa280\partightenfactor0
 
-                                    
-                                    
-                                    
-                                    <div>
-                                        
-                                    </div>
-                                    
-                                    
-                                </div>
-                                
-                            </div>
+\f0\b\fs28 \cf2 Highlights\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls12\ilvl0
+\f1\b0\fs24 \cf2 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+We investigated regional tissue characteristics of preoperative temporal lobe white matter tracts.\
+\ls12\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Relative to controls, both patient groups exhibited strong and significant diffusion abnormalities along tracts.\
+\ls12\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Only patients with persistent postoperative seizures showed evidence of pathology in the ipsilateral dorsal fornix and in the contralateral parahippocampal white matter bundle.\
+\ls12\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Diffusion characteristics of these regions could classify individual patients according to outcome with 84% sensitivity and 89% specificity.\
+\pard\pardeftab720\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sa280\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "file:///publications/skulmowski2015frontierspsych"}}{\fldrslt 
+\f0\b\fs28 \cf3 \ul \ulc3 Investigating conceptions of intentional action by analyzing participant generated scenarios}}
+\f0\b\fs28  \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://dx.doi.org/10.3389/fpsyg.2015.01630"}}{\fldrslt 
+\f1\b0\fs24 \cf3 \ul \ulc3 DOI\
+}}\pard\pardeftab720\partightenfactor0
 
-<!--copy here for additional publication-->
+\f1\b0\fs24 \cf2 Alexander Skulmowski, Andreas Bunge, Bret R. Cohen, Barbara A. K. Kreilkamp, Nicole Troxler \
+November 2015 Frontiers in Psychology \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "file:///publications/skulmowski2015frontierspsych"}}{\fldrslt \cf3 \ul \ulc3 \
+}}\pard\pardeftab720\sa280\partightenfactor0
 
-<!--copy here for publication-->
-<div class="card-simple">
-    
-    
-    <h3 class="article-title mb-1 mt-1">
-        <a href="/publications/kreilkamp2017neuroimageclinical">Automated tractography in patients with temporal lobe epilepsy using TRActs Constrained by UnderLying Anatomy (TRACULA)</a>
-    </h3>
-    
-    
-    <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://dx.doi.org/10.1016/j.nicl.2017.01.003" target="_blank" rel="noopener">
-        DOI
-    </a>
-    
-    
-    <div class="article-metadata">
-        
-        <div>
-            
-            <span>Barbara A.K. Kreilkamp</span>, <span>Bernd Weber</span>, <span>Mark P. Richardson</span>, <span>Simon S. Keller</span>
-            
-        </div>
-        
-        
-        
-        
-        <span class="article-date">
-            
-            
-            
-            
-            January 2017
-        </span>
-        
-        
-        
-        <span class="middot-divider"></span>
-        <span class="pub-publication">
-            
-            NeuroImage:Clinical
-            
-        </span>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    </div>
-    
-    
-    
-    
-    
-    
-    
-    <a href="/publications/kreilkamp2017neuroimageclinical">
-        <img src="/publications/kreilkamp2017neuroimageclinical/featured1.png" class="article-banner" alt="">
-            </a>
-    
-    
-    
-    <div class="col-md-15">
-        <h3>Highlights</h3>
-        <ul class="ul-interests">
-            
-            <li>We investigated white matter tract alterations in TLE using an automated tool.</li>
-            
-            <li>Patients showed bilateral tract alterations but were more prominent ipsilaterally.</li>
-            
-            <li>Along-the-tract analyses revealed the exact location of tract diffusion alterations.</li>
-            
-            <li>Alterations correlated with chronicity/severity of TLE but not hippocampal atrophy.</li>
-            
-        </ul>
-    </div>
-    
-    
-    
-    
-    
-    
-    <div class="btn-links">
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <div>
-            
-        </div>
-        
-        
-    </div>
-    
-</div>
+\f0\b\fs28 \cf2 Highlights\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls13\ilvl0
+\f1\b0\fs24 \cf2 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+We asked our participants to come up with their own scenarios and to explain why these are examples of intentional or unintentional actions.\
+\ls13\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+We employed content analysis to extract contexts and components that people associated with these action types.\
+\ls13\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Unintentional actions were predominantly associated with bad outcomes while intentional actions were more strongly linked to positive outcomes.\
+\ls13\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+People\'92s conceptions of intentional action seem to involve more aspects than previously reported, such as decisions and thoughts about the action.\
+\pard\pardeftab720\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sa280\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "file:///publications/kreilkamp2015jmri"}}{\fldrslt 
+\f0\b\fs28 \cf3 \ul \ulc3 Retrospective Head Motion Correction Approaches for Diffusion Tensor Imaging: Effects of Preprocessing Choices on Biases and Reproducibility of Scalar Diffusion Metrics}}
+\f0\b\fs28  \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://dx.doi.org/10.1002/jmri.24965"}}{\fldrslt 
+\f1\b0\fs24 \cf3 \ul \ulc3 DOI\
+}}\pard\pardeftab720\partightenfactor0
 
+\f1\b0\fs24 \cf2 Barbara A.K. Kreilkamp, Domenico Zaca, Nico Papinutto, Jorge Jovicich \
+May 2015 Journal of Magnetic Resonance Imaging \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "file:///publications/kreilkamp2015jmri"}}{\fldrslt \cf3 \ul \ulc3 \
+}}\pard\pardeftab720\sa280\partightenfactor0
 
-<!--copy here for publication-->
-<div class="card-simple">
-    
-    <h3 class="article-title mb-1 mt-1">
-        <a href="/publications/keller2017brain">Preoperative automated fibre quantification predicts postoperative seizure outcome in temporal lobe epilepsy</a>
-    </h3>
-    
-    <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://dx.doi.org/10.1093/brain/aww280" target="_blank" rel="noopener">
-        DOI
-    </a>
-    
-    <div class="article-metadata">
-        
-        <div>
-            
-            <span>Simon S. Keller</span>, <span>G. Russell Glenn</span>, <span>Bernd Weber</span>, <span>Barbara A.K. Kreilkamp</span>, <span>Jens H. Jensen</span>, <span>Joseph A. Helpern</span>, <span>Jan Wagner</span>, <span>Gareth J. Barker</span>, <span>Mark P. Richardson</span>, <span>Leonardo Bonilha</span>
-            
-        </div>
-        
-        
-        
-        
-        <span class="article-date">
-            
-            
-            
-            
-            November 2016
-        </span>
-        
-        
-        
-        <span class="middot-divider"></span>
-        <span class="pub-publication">
-            
-            Brain
-            
-        </span>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    </div>
-    
-    
-    
-    
-    
-    
-    
-    <a href="/publications/keller2017brain">
-        <img src="/publications/keller2017brain/featured1.png" class="article-banner" alt="">
-            </a>
-    
-    
-    
-    
-    <div class="col-md-15">
-        <h3>Highlights</h3>
-        <ul class="ul-interests">
-            
-            <li>We investigated regional tissue characteristics of preoperative temporal lobe white matter tracts.</li>
-            
-            <li>Relative to controls, both patient groups exhibited strong and significant diffusion abnormalities along tracts.</li>
-            
-            <li>Only patients with persistent postoperative seizures showed evidence of pathology in the ipsilateral dorsal fornix and in the contralateral parahippocampal white matter bundle.</li>
-            
-            <li>Diffusion characteristics of these regions could classify individual patients according to outcome with 84% sensitivity and 89% specificity.</li>
-            
-        </ul>
-    </div>
-    
-    
-    
-    
-    
-    <div class="btn-links">
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <div>
-            
-        </div>
-        
-        
-    </div>
-    
-</div>
+\f0\b\fs28 \cf2 Highlights\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls14\ilvl0
+\f1\b0\fs24 \cf2 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Goal: To evaluate how retrospective head motion correction strategies affect the estimation of scalar metrics.\
+\ls14\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Preprocessing choices affected DTI measures and their reproducibility.\
+\ls14\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+The DTIPrep pipeline showed significantly higher reproducibility (P<0.001) relative to the other pipelines.\
+\ls14\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+The use of an iteratively averaged b0 image as motion correction reference (as performed by DTIPrep) affects both scalar values and improves test\'96retest reliability.\
+\pard\pardeftab720\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sa280\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "file:///publications/keller2015annalsneurol"}}{\fldrslt 
+\f0\b\fs28 \cf3 \ul \ulc3 Thalamotemporal Alteration and Postoperative Seizures in Temporal Lobe Epilepsy}}
+\f0\b\fs28  \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://dx.doi.org/10.1002/ana.24376"}}{\fldrslt 
+\f1\b0\fs24 \cf3 \ul \ulc3 DOI\
+}}\pard\pardeftab720\partightenfactor0
 
+\f1\b0\fs24 \cf2 Simon S. Keller, Mark P. Richardson, Jan-Christoph Schoene-Bake, Jonathan O\'92Muircheartaigh, Samia Elkommos, Barbara A.K. Kreilkamp, Yee Yen Goh, Anthony G. Marson, Christian Elger, Bernd Weber \
+January 2015 Annals of Neurology \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "file:///publications/keller2015annalsneurol"}}{\fldrslt \cf3 \ul \ulc3 \
+}}\pard\pardeftab720\sa280\partightenfactor0
 
-<!--copy here for publication-->
+\f0\b\fs28 \cf2 Highlights\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls15\ilvl0
+\f1\b0\fs24 \cf2 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Goal: To Identify common brain structural and connectivity alteration in patients with persistent postoperative seizures\
+\ls15\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Patients with persistent seizures had significant atrophy of bilateral dorsomedial and pulvinar thalamic regions.\
+\ls15\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Patients with persistent seizures had significant alterations of DTI\uc0\u8208 derived thalamotemporal probabilistic paths bilaterally.\
+\ls15\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Patients with bihemispheric alterations of thalamotemporal structural networks may represent a subtype of mTLE that is resistant to surgery.\
+\pard\pardeftab720\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sa298\partightenfactor0
 
+\f0\b\fs36 \cf2 Teaching\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls16\ilvl0
+\f1\b0\fs24 \cf2 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Since 2020: Associate Fellow of Higher Education Academy (AFHEA)\uc0\u8232 AdvanceHE, United Kingdom\u8232 \u8232 \
+\ls16\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Since 2019: Invited Course Instructor on Module \'91Clinical, Anatomical and Cellular Basis of Neurological Dysfunction\'92\uc0\u8232 3rd-year Bachelor of Science in Biological Sciences\u8232 Department of Molecular and Clinical Pharmacology, University of Liverpool, United Kingdom\u8232 \u8232 \
+\ls16\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Since 2019: Invited Course Instructor on Module \'91Neuroimaging and Cognitive Neuroscience\'92\uc0\u8232 3rd-year Bachelor of Science in Psychology\u8232 Department of Psychology, University of Liverpool, United Kingdom\u8232 \u8232 \
+\ls16\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Since 2016: Mentor of PhD students\uc0\u8232 Department of Molecular and Clinical Pharmacology, University of Liverpool, United Kingdom\u8232 \u8232 \
+\ls16\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Since 2016: Supervisor of Master students\uc0\u8232 Department of Molecular and Clinical Pharmacology, University of Liverpool, United Kingdom\u8232 \u8232 \
+\pard\pardeftab720\sa298\partightenfactor0
 
-<!--copy here for publication-->
-<div class="card-simple">
-    
-    <h3 class="article-title mb-1 mt-1">
-        <a href="/publications/skulmowski2015frontierspsych">Investigating conceptions of intentional action by analyzing participant generated scenarios</a>
-    </h3>
-    
-    <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://dx.doi.org/10.3389/fpsyg.2015.01630" target="_blank" rel="noopener">
-        DOI
-    </a>
-    
-    <div class="article-metadata">
-        
-        <div>
-            
-            <span>Alexander Skulmowski</span>, <span>Andreas Bunge</span>, <span>Bret R. Cohen</span>, <span>Barbara A. K. Kreilkamp</span>, <span>Nicole Troxler</span>
-            
-        </div>
-        
-        
-        
-        
-        <span class="article-date">
-            
-            
-            
-            
-            November 2015
-        </span>
-        
-        
-        
-        <span class="middot-divider"></span>
-        <span class="pub-publication">
-            
-            Frontiers in Psychology
-            
-        </span>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    </div>
-    
-    
-    
-    
-    
-    
-    
-    <a href="/publications/skulmowski2015frontierspsych">
-        <img src="/publications/skulmowski2015frontierspsych/featured1.png" class="article-banner" alt="">
-            </a>
-    
-    
-    
-    
-    <div class="col-md-15">
-        <h3>Highlights</h3>
-        <ul class="ul-interests">
-            
-            <li>We asked our participants to come up with their own scenarios and to explain why these are examples of intentional or unintentional actions.</li>
-            
-            <li>We employed content analysis to extract contexts and components that people associated with these action types.</li>
-            
-            <li>Unintentional actions were predominantly associated with bad outcomes while intentional actions were more strongly linked to positive outcomes.</li>
-            
-            <li>People’s conceptions of intentional action seem to involve more aspects than previously reported, such as decisions and thoughts about the action.</li>
-            
-        </ul>
-    </div>
-    
-    
-    
-    
-    
-    <div class="btn-links">
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <div>
-            
-        </div>
-        
-        
-    </div>
-    
-</div>
+\f0\b\fs36 \cf2 Awards\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls17\ilvl0
+\f1\b0\fs24 \cf2 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+2019: Hackathon Travel Award\uc0\u8232 Organization of Human Brain Mapping, United States of America\u8232 \u8232 \
+\ls17\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+2019: Travel Grant\uc0\u8232 Guarantors of Brain, United Kingdom\u8232 \u8232 \
+\ls17\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+2014: Post-graduate Study Bursary\uc0\u8232 Epilepsy Action, United Kingdom\u8232 \u8232 \
+\ls17\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+2014-2017: PhD Studentship\uc0\u8232 University of Liverpool, United Kingdom\u8232 \u8232 \
+\ls17\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+2013: Erasmus Mundus Double-Degree Studentship\uc0\u8232 University of Osnabr\'fcck, Germany\u8232 University of Trento, Italy\u8232 \u8232 \
+\pard\pardeftab720\sa240\partightenfactor0
+\cf2 \'a9 Dr. Barbara A.K. Kreilkamp 2020 \'b7 Powered by the {\field{\*\fldinst{HYPERLINK "https://sourcethemes.com/academic/"}}{\fldrslt \cf3 \ul \ulc3 Academic theme}} for {\field{\*\fldinst{HYPERLINK "https://gohugo.io/"}}{\fldrslt \cf3 \ul \ulc3 Hugo}}. \
+\pard\pardeftab720\sa332\partightenfactor0
 
-<!--copy here for publication-->
-<div class="card-simple">
-    
-    <h3 class="article-title mb-1 mt-1">
-        <a href="/publications/kreilkamp2015jmri">Retrospective Head Motion Correction Approaches for Diffusion Tensor Imaging: Effects of Preprocessing Choices on Biases and Reproducibility of Scalar Diffusion Metrics</a>
-    </h3>
-    
-    <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://dx.doi.org/10.1002/jmri.24965" target="_blank" rel="noopener">
-        DOI
-    </a>
-    
-    <div class="article-metadata">
-        
-        <div>
-            
-            <span>Barbara A.K. Kreilkamp</span>, <span>Domenico Zaca</span>, <span>Nico Papinutto</span>, <span>Jorge Jovicich</span>
-            
-        </div>
-        
-        
-        
-        
-        <span class="article-date">
-            
-            
-            
-            
-            May 2015
-        </span>
-        
-        
-        
-        <span class="middot-divider"></span>
-        <span class="pub-publication">
-            
-            Journal of Magnetic Resonance Imaging
-            
-        </span>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    </div>
-    
-    
-    
-    
-    
-    
-    
-    <a href="/publications/kreilkamp2015jmri">
-        <img src="/publications/kreilkamp2015jmri/featured1.png" class="article-banner" alt="">
-            </a>
-    
-    
-    
-    
-    <div class="col-md-15">
-        <h3>Highlights</h3>
-        <ul class="ul-interests">
-            
-            <li>Goal: To evaluate how retrospective head motion correction strategies affect the estimation of scalar metrics.</li>
-            
-            <li>Preprocessing choices affected DTI measures and their reproducibility.</li>
-            
-            <li>The DTIPrep pipeline showed significantly higher reproducibility (P<0.001) relative to the other pipelines.</li>
-                
-                <li>The use of an iteratively averaged b0 image as motion correction reference (as performed by DTIPrep) affects both scalar values and improves test–retest reliability.</li>
-                
-                
-                </ul>
-    </div>
-    
-    
-    
-    
-    
-    <div class="btn-links">
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <div>
-            
-        </div>
-        
-        
-    </div>
-    
-</div>
+\f0\b\fs20 \cf2 Cite\
+\pard\pardeftab720\partightenfactor0
 
+\f4\b0\fs22 \cf4 \cb5 \'d7 
+\f1\fs24 \cf2 \cb1 \
+\pard\pardeftab720\partightenfactor0
 
-<!--copy here for publication-->
+\f5 \cf2 \
+\pard\pardeftab720\partightenfactor0
 
-
-<!--copy here for publication-->
-<div class="card-simple">
-    
-    <h3 class="article-title mb-1 mt-1">
-        <a href="/publications/keller2015annalsneurol">Thalamotemporal Alteration and Postoperative Seizures in Temporal Lobe Epilepsy</a>
-    </h3>
-    
-    <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://dx.doi.org/10.1002/ana.24376" target="_blank" rel="noopener">
-        DOI
-    </a>
-    
-    <div class="article-metadata">
-        
-        <div>
-            
-             <span>Simon S. Keller</span>, <span>Mark P. Richardson</span>, <span>Jan-Christoph Schoene-Bake</span>, <span>Jonathan O’Muircheartaigh</span>, <span>Samia Elkommos</span>, <span>Barbara A.K. Kreilkamp</span>, <span>Yee Yen Goh</span>, <span>Anthony G. Marson</span>, <span>Christian Elger</span>, <span>Bernd Weber</span>
-            
-        </div>
-        
-        
-        
-        
-        <span class="article-date">
-            
-            
-            
-            
-            January 2015
-        </span>
-        
-        
-        
-        <span class="middot-divider"></span>
-        <span class="pub-publication">
-            
-            Annals of Neurology
-            
-        </span>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    </div>
-    
-    
-    
-    
-    
-    
-    
-    <a href="/publications/keller2015annalsneurol">
-        <img src="/publications/keller2015annalsneurol/featured1.png" class="article-banner" alt="">
-            </a>
-    
-    
-    
-    
-    <div class="col-md-15">
-        <h3>Highlights</h3>
-        <ul class="ul-interests">
-            
-            <li>Goal: To Identify common brain structural and connectivity alteration in patients with persistent postoperative seizures</li>
-            
-            <li>Patients with persistent seizures had significant atrophy of bilateral dorsomedial and pulvinar thalamic regions.</li>
-            
-            <li>Patients with persistent seizures had significant alterations of DTI‐derived thalamotemporal probabilistic paths bilaterally.</li>
-            
-            <li>Patients with bihemispheric alterations of thalamotemporal structural networks may represent a subtype of mTLE that is resistant to surgery.</li>
-            
-        </ul>
-    </div>
-    
-    
-    
-    
-    
-    <div class="btn-links">
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <div>
-            
-        </div>
-        
-        
-    </div>
-    
-</div>
-
-
-
-
-<!--copy here for additional publication-->
-
-</section>
-
- 
- 
- 
- 
- <section id="teaching" class="home-section wg-teaching   "  >
-     <div class="container">
-         
-         
-         
-         
-         <div class="row">
-             <div class="col-32 col-lg-34 section-heading">
-                 <h1>Teaching</h1>
-                 
-                 
-                 <div class="col-62 col-lg-68">
-                     
-                     
-                     
-                     
-<!--                     <div class="row">-->
-
-                         
-                         
-                         
-                         
-                         
-                         <div class="col-md-17">
-                             <!--                                <h3>Teaching</h3>-->
-                             <ul class="ul-edu fa-ul">
-                                 
-                                 <li>
-                                     <i class="fa-li fas fa-graduation-cap"></i>
-                                     <div class="description">
-                                         <p class="course">Since 2020: Associate Fellow of Higher Education Academy (AFHEA)</p>
-                                         <p class="institution">AdvanceHE, United Kingdom</p>
-                                     </div>
-                                 </li>
-                                 
-                                 
-                                 <li>
-                                     <i class="fa-li fas fa-graduation-cap"></i>
-                                     <div class="description">
-                                         <p class="course">Since 2019: Invited Course Instructor on Module ‘Clinical, Anatomical and Cellular Basis of Neurological Dysfunction’</p>
-                                         <p class="institution">3rd-year Bachelor of Science in Biological Sciences</p>
-                                         <p class="institution">Department of Molecular and Clinical Pharmacology, University of Liverpool, United Kingdom</p>
-                                     </div>
-                                 </li>
-                                 
-                                 
-                                 
-                                 <li>
-                                     <i class="fa-li fas fa-graduation-cap"></i>
-                                     <div class="description">
-                                         <p class="course">Since 2019: Invited Course Instructor on Module ‘Neuroimaging and Cognitive Neuroscience’</p>
-                                         <p class="institution">3rd-year Bachelor of Science in Psychology</p>
-                                         <p class="institution">Department of Psychology, University of Liverpool, United Kingdom</p>
-                                     </div>
-                                 </li>
-                                 
-                                 <li>
-                                     <i class="fa-li fas fa-graduation-cap"></i>
-                                     <div class="description">
-                                         <p class="course">Since 2016: Mentor of PhD students</p>
-                                         <p class="institution">Department of Molecular and Clinical Pharmacology, University of Liverpool, United Kingdom</p>
-                                     </div>
-                                 </li>
-                                 
-                                 <li>
-                                     <i class="fa-li fas fa-graduation-cap"></i>
-                                     <div class="description">
-                                         <p class="course">Since 2016: Supervisor of Master students</p>
-                                         <p class="institution">Department of Molecular and Clinical Pharmacology, University of Liverpool, United Kingdom</p>
-                                     </div>
-                                 </li>
-                                 
-                             </ul>
-                         </div>
-                         
-                         
-                     </div>
-                 </div>
-             </div>
-             
-         </div>
-         </section>
-
- 
- 
- <!--copied here for additional homepage section-->
-        
-</section>
-        
-        
-        
-        
-        
-        <section id="awards" class="home-section wg-awards   "  >
-            <div class="container">
-                
-                
-                
-                
-                <div class="row">
-                    <div class="col-32 col-lg-34 section-heading">
-                        <h1>Awards</h1>
-                        
-                        
-                        <div class="col-62 col-lg-68">
-                            
-                            
-                            
-                            
-                            <!--                     <div class="row">-->
-                            
-                            
-                            
-                            
-                            
-                            
-                            <div class="col-md-17">
-                                <!--                                <h3>Teaching</h3>-->
-                                <ul class="ul-edu fa-ul">
-                                    
-                                
-                                    
-                                    
-                                    <li>
-                                        <i class="fa-li fas fa-graduation-cap"></i>
-                                        <div class="description">
-                                            <p class="course">2019: Hackathon Travel Award</p>
-                                            <p class="institution">Organization of Human Brain Mapping, United States of America</p>
-                                        </div>
-                                    </li>
-                                    
-                                    
-                                    
-                                    <li>
-                                        <i class="fa-li fas fa-graduation-cap"></i>
-                                        <div class="description">
-                                            <p class="course">2019: Travel Grant</p>
-                                            <p class="institution">Guarantors of Brain, United Kingdom</p>
-                                        </div>
-                                    </li>
-                                    
-                                    <li>
-                                        <i class="fa-li fas fa-graduation-cap"></i>
-                                        <div class="description">
-                                            <p class="course">2014: Post-graduate Study Bursary</p>
-                                            <p class="institution">Epilepsy Action, United Kingdom</p>
-                                        </div>
-                                    </li>
-                                    
-                                    <li>
-                                        <i class="fa-li fas fa-graduation-cap"></i>
-                                        <div class="description">
-                                            <p class="course">2014-2017: PhD Studentship</p>
-                                            <p class="institution">University of Liverpool, United Kingdom</p>
-                                        </div>
-                                    </li>
-                                    
-                                    <li>
-                                        <i class="fa-li fas fa-graduation-cap"></i>
-                                        <div class="description">
-                                            <p class="course">2013: Erasmus Mundus Double-Degree Studentship</p>
-                                            <p class="institution">University of Osnabrück, Germany</p>
-                                            <p class="institution">University of Trento, Italy</p>
-                                        </div>
-                                    </li>
-                                    
-                                </ul>
-                            </div>
-                            
-                            
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        </section>
-        
-        
-        
-        
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
-        
-        
-        
-        
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <script>const code_highlighting = true;</script>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <script src="/js/academic.min.e5c8525332f417fe3589df9a6b25b6c4.js"></script>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <div class="container">
-            <footer class="site-footer">
-                
-                
-                <p class="powered-by">
-                © Dr. Barbara A.K. Kreilkamp 2020 &middot;
-                
-                Powered by the
-                <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
-                <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
-                
-                
-                <span class="float-right" aria-hidden="true">
-                    <a href="#" class="back-to-top">
-                        <span class="button_icon">
-                            <i class="fas fa-chevron-up fa-2x"></i>
-                        </span>
-                    </a>
-                </span>
-                
-                </p>
-            </footer>
-            
-        </div>
-        
-        
-        
-        <div id="modal" class="modal fade" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Cite</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <pre><code class="tex hljs"></code></pre>
-                    </div>
-                    <div class="modal-footer">
-                        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-                            <i class="fas fa-copy"></i> Copy
-                        </a>
-                        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-                            <i class="fas fa-download"></i> Download
-                        </a>
-                        <div id="modal-error"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-    </body>
-</html>
-
+\f1 \cf3 \ul \ulc3 Copy Download\
+\pard\pardeftab720\partightenfactor0
+\cf2 \ulnone \
+}
